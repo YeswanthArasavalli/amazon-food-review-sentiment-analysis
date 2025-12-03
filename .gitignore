@@ -55,3 +55,9 @@ env/
 # OS
 Thumbs.db
 .DS_Store
+
+# Project-specific files
+models/
+data/
+*.zip
+*.bin
