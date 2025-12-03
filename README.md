@@ -114,24 +114,26 @@ Confidence: 0.94
 ## 📁 Project Structure
 
 ```
-amazon_food_review/
+amazon-food-review/
 ├── data/
-│   ├── raw/                    # Original dataset
-│   └── processed/              # Cleaned & preprocessed data
+│   ├── raw/                      # Original dataset from Kaggle
+│   └── processed/                # Cleaned & preprocessed data for training
 ├── src/
-│   ├── data_loader.py         # Data loading utilities
-│   ├── preprocessing.py       # Text cleaning & tokenization
-│   ├── train_baseline.py      # Baseline model training
-│   ├── train_transformer.py   # DistilBERT fine-tuning
-│   └── evaluate.py            # Model evaluation metrics
+│   ├── data_loader.py            # Dataset loading and splitting utilities
+│   ├── preprocessing.py          # Text cleaning, tokenization, encoding
+│   ├── train_baseline.py         # TF-IDF + Logistic Regression training
+│   ├── train_transformer.py      # DistilBERT fine-tuning pipeline
+│   └── evaluate.py               # Model evaluation metrics and visualization
 ├── notebooks/
-│   └── analysis.ipynb         # Exploratory data analysis
+│   └── analysis.ipynb            # Exploratory Data Analysis (EDA)
 ├── models/
-│   ├── baseline_model.pkl
-│   └── distilbert_model/
-├── requirements.txt
-└── README.md
-```
+│   ├── baseline_model.pkl        # Trained TF-IDF + LR baseline model
+│   ├── distilbert_model/         # Fine-tuned DistilBERT model artifacts
+│   └── tokenizer/                # BERT tokenizer for preprocessing
+├── requirements.txt              # Python dependencies
+├── .gitignore                    # Git ignore patterns
+└── README.md                     # This file
+``````
 
 ---
 
