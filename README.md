@@ -202,6 +202,6 @@ Amazon-Food-Review-Sentiment-Analysis/
 
 - **Author:** Yeswanth Arasavalli
 - **GitHub:** [YeswanthArasavalli](https://github.com/YeswanthArasavalli)
-- **Email:** [Your Email]
+- **Email:** [yeswantharasavalli@gmail.com](yeswantharasavalli@gmail.com)
 - **Hugging Face:** [YeswanthArasavalli](https://huggingface.co/YeswanthArasavalli)
 - **Project Issues:** [GitHub Issues](https://github.com/YeswanthArasavalli/Amazon-Food-Review-Sentiment-Analysis/issues)
